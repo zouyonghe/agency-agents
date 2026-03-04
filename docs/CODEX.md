@@ -7,6 +7,7 @@ This repository is adapted for Codex by adding generated skills under `codex-ski
 - `scripts/generate_codex_skills.py`: converts agent markdown files into Codex skills.
 - `codex-skills/<skill-name>/SKILL.md`: Codex-compatible skills (55 generated).
 - `codex-skills/README.md`: generated list of all available Codex skills.
+- `docs/CODEX-ORCHESTRATION.md`: serial/parallel orchestration templates for Codex sessions.
 
 ## Regenerate Skills
 
@@ -51,3 +52,4 @@ For multiple skills, repeat `cp -R` for each directory under `codex-skills/`.
 - Skill directory names use file stem slugs (for example `engineering-frontend-developer`).
 - The generated `SKILL.md` preserves the original agent instructions and source path.
 - Re-running the generator replaces the full `codex-skills/` folder.
+- For multi-agent execution patterns, use [`docs/CODEX-ORCHESTRATION.md`](CODEX-ORCHESTRATION.md).

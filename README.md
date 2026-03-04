@@ -45,6 +45,7 @@ Each agent file contains:
 
 This repo includes Codex-compatible skills generated from agent profiles in [`codex-skills/`](codex-skills/README.md).
 Detailed guide: [`docs/CODEX.md`](docs/CODEX.md)
+Orchestration templates: [`docs/CODEX-ORCHESTRATION.md`](docs/CODEX-ORCHESTRATION.md)
 
 Install one skill from upstream:
 
