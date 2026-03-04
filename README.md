@@ -41,6 +41,31 @@ Each agent file contains:
 - Technical deliverables with code examples
 - Success metrics & communication style
 
+### Option 3: Use with Codex
+
+This repo includes Codex-compatible skills generated from agent profiles in [`codex-skills/`](codex-skills/README.md).
+Detailed guide: [`docs/CODEX.md`](docs/CODEX.md)
+
+Install one skill from your fork:
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo zouyonghe/agency-agents \
+  --path codex-skills/engineering-frontend-developer
+```
+
+Install multiple skills:
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo zouyonghe/agency-agents \
+  --path codex-skills/engineering-frontend-developer \
+         codex-skills/testing-api-tester \
+         codex-skills/marketing-growth-hacker
+```
+
+After installation, restart Codex to load newly installed skills.
+
 Browse the agents below and copy/adapt the ones you need!
 
 ---

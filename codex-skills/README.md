@@ -1,0 +1,67 @@
+# Codex Skills for The Agency
+
+Generated skills compatible with Codex `SKILL.md` format.
+
+## Skills
+
+- `design-brand-guardian` -> **Brand Guardian** (`design/design-brand-guardian.md`)
+- `design-image-prompt-engineer` -> **Image Prompt Engineer** (`design/design-image-prompt-engineer.md`)
+- `design-ui-designer` -> **UI Designer** (`design/design-ui-designer.md`)
+- `design-ux-architect` -> **UX Architect** (`design/design-ux-architect.md`)
+- `design-ux-researcher` -> **UX Researcher** (`design/design-ux-researcher.md`)
+- `design-visual-storyteller` -> **Visual Storyteller** (`design/design-visual-storyteller.md`)
+- `design-whimsy-injector` -> **Whimsy Injector** (`design/design-whimsy-injector.md`)
+- `engineering-ai-engineer` -> **AI Engineer** (`engineering/engineering-ai-engineer.md`)
+- `engineering-backend-architect` -> **Backend Architect** (`engineering/engineering-backend-architect.md`)
+- `engineering-devops-automator` -> **DevOps Automator** (`engineering/engineering-devops-automator.md`)
+- `engineering-frontend-developer` -> **Frontend Developer** (`engineering/engineering-frontend-developer.md`)
+- `engineering-mobile-app-builder` -> **Mobile App Builder** (`engineering/engineering-mobile-app-builder.md`)
+- `engineering-rapid-prototyper` -> **Rapid Prototyper** (`engineering/engineering-rapid-prototyper.md`)
+- `engineering-senior-developer` -> **Senior Developer** (`engineering/engineering-senior-developer.md`)
+- `marketing-app-store-optimizer` -> **App Store Optimizer** (`marketing/marketing-app-store-optimizer.md`)
+- `marketing-content-creator` -> **Content Creator** (`marketing/marketing-content-creator.md`)
+- `marketing-growth-hacker` -> **Growth Hacker** (`marketing/marketing-growth-hacker.md`)
+- `marketing-instagram-curator` -> **Instagram Curator** (`marketing/marketing-instagram-curator.md`)
+- `marketing-reddit-community-builder` -> **Reddit Community Builder** (`marketing/marketing-reddit-community-builder.md`)
+- `marketing-social-media-strategist` -> **Social Media Strategist** (`marketing/marketing-social-media-strategist.md`)
+- `marketing-tiktok-strategist` -> **TikTok Strategist** (`marketing/marketing-tiktok-strategist.md`)
+- `marketing-twitter-engager` -> **Twitter Engager** (`marketing/marketing-twitter-engager.md`)
+- `product-feedback-synthesizer` -> **Feedback Synthesizer** (`product/product-feedback-synthesizer.md`)
+- `product-sprint-prioritizer` -> **Sprint Prioritizer** (`product/product-sprint-prioritizer.md`)
+- `product-trend-researcher` -> **Trend Researcher** (`product/product-trend-researcher.md`)
+- `project-management-experiment-tracker` -> **Experiment Tracker** (`project-management/project-management-experiment-tracker.md`)
+- `project-management-project-shepherd` -> **Project Shepherd** (`project-management/project-management-project-shepherd.md`)
+- `project-management-studio-operations` -> **Studio Operations** (`project-management/project-management-studio-operations.md`)
+- `project-management-studio-producer` -> **Studio Producer** (`project-management/project-management-studio-producer.md`)
+- `project-manager-senior` -> **Senior Project Manager** (`project-management/project-manager-senior.md`)
+- `macos-spatial-metal-engineer` -> **macOS Spatial/Metal Engineer** (`spatial-computing/macos-spatial-metal-engineer.md`)
+- `terminal-integration-specialist` -> **Terminal Integration Specialist** (`spatial-computing/terminal-integration-specialist.md`)
+- `visionos-spatial-engineer` -> **visionOS Spatial Engineer** (`spatial-computing/visionos-spatial-engineer.md`)
+- `xr-cockpit-interaction-specialist` -> **XR Cockpit Interaction Specialist** (`spatial-computing/xr-cockpit-interaction-specialist.md`)
+- `xr-immersive-developer` -> **XR Immersive Developer** (`spatial-computing/xr-immersive-developer.md`)
+- `xr-interface-architect` -> **XR Interface Architect** (`spatial-computing/xr-interface-architect.md`)
+- `agents-orchestrator` -> **Agents Orchestrator** (`specialized/agents-orchestrator.md`)
+- `data-analytics-reporter` -> **Data Analytics Reporter** (`specialized/data-analytics-reporter.md`)
+- `data-consolidation-agent` -> **Data Consolidation Agent** (`specialized/data-consolidation-agent.md`)
+- `lsp-index-engineer` -> **LSP/Index Engineer** (`specialized/lsp-index-engineer.md`)
+- `report-distribution-agent` -> **Report Distribution Agent** (`specialized/report-distribution-agent.md`)
+- `sales-data-extraction-agent` -> **Sales Data Extraction Agent** (`specialized/sales-data-extraction-agent.md`)
+- `support-analytics-reporter` -> **Analytics Reporter** (`support/support-analytics-reporter.md`)
+- `support-executive-summary-generator` -> **Executive Summary Generator** (`support/support-executive-summary-generator.md`)
+- `support-finance-tracker` -> **Finance Tracker** (`support/support-finance-tracker.md`)
+- `support-infrastructure-maintainer` -> **Infrastructure Maintainer** (`support/support-infrastructure-maintainer.md`)
+- `support-legal-compliance-checker` -> **Legal Compliance Checker** (`support/support-legal-compliance-checker.md`)
+- `support-support-responder` -> **Support Responder** (`support/support-support-responder.md`)
+- `testing-api-tester` -> **API Tester** (`testing/testing-api-tester.md`)
+- `testing-evidence-collector` -> **Evidence Collector** (`testing/testing-evidence-collector.md`)
+- `testing-performance-benchmarker` -> **Performance Benchmarker** (`testing/testing-performance-benchmarker.md`)
+- `testing-reality-checker` -> **Reality Checker** (`testing/testing-reality-checker.md`)
+- `testing-test-results-analyzer` -> **Test Results Analyzer** (`testing/testing-test-results-analyzer.md`)
+- `testing-tool-evaluator` -> **Tool Evaluator** (`testing/testing-tool-evaluator.md`)
+- `testing-workflow-optimizer` -> **Workflow Optimizer** (`testing/testing-workflow-optimizer.md`)
+
+## Regenerate
+
+```bash
+python3 scripts/generate_codex_skills.py
+```
