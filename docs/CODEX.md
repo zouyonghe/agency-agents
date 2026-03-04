@@ -18,11 +18,11 @@ python3 scripts/generate_codex_skills.py
 
 ## Install Skills Into Codex
 
-Install one skill from your fork:
+Install one skill from upstream:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo zouyonghe/agency-agents \
+  --repo msitarzewski/agency-agents \
   --path codex-skills/engineering-frontend-developer
 ```
 
@@ -30,7 +30,7 @@ Install multiple skills:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo zouyonghe/agency-agents \
+  --repo msitarzewski/agency-agents \
   --path codex-skills/engineering-frontend-developer \
          codex-skills/testing-api-tester \
          codex-skills/marketing-growth-hacker
